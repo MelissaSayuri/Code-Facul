@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Solicitação</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="register-box">
+    <h2>Nova Solicitação</h2>
+    <form id="requestForm">
+      <label for="fullName">Nome Completo:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="ra">RA:</label>
+      <input type="text" id="ra" name="ra" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phoneNumber">Número de Telefone:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+      <label for="course">Curso ou Departamento:</label>
+      <input type="text" id="course" name="course" required>
+
+      <label for="semester">Ano/Semestre:</label>
+      <input type="text" id="semester" name="semester" required>
+
+      <label for="problemCategory">Tipo de Problema:</label>
+      <input type="text" id="problemCategory" name="problemCategory" required>
+
+      <label for="problemDescription">Descrição do Problema:</label>
+      <textarea id="problemDescription" name="problemDescription" rows="10" required></textarea>
+
+      <label for="attachments">Anexar Arquivos:</label>
+      <input type="file" id="attachments" name="attachments">
+
+      <label for="notifications">Notificações por E-mail ou SMS:</label>
+      <input type="checkbox" id="notifications" name="notifications">
+
+      <button type="submit">Enviar Solicitação</button>
+    </form>
+  </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
