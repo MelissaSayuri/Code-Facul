@@ -1,0 +1,55 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, #e2499b 0%, #12f5de 100%);
+  }
+  
+  .register-box {
+    width: 400px;
+    padding: 40px;
+    background: rgba(213, 212, 212, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(10, 9, 9, 0.6);
+    border-radius: 10px;
+  }
+  
+  .tracking-container {
+    width: 70%;
+    margin: 50px auto;
+    transform: translate(0,0);
+    padding: 20px;
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  #orderStatus {
+    margin-top: 20px;
+  }
+  

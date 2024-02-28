@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracking Order</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="tracking-container">
+    <h1>Solicitação</h1>
+    <label for="orderNumber">Número da Solicitação:</label>
+    <input type="text" id="orderNumber" placeholder="Digite o número do pedido">
+    <button onclick="trackOrder()">Rastrear Pedido</button>
+
+    <h2>Chamados</h2>
+    <button onclick="getAllRequests()">Acompanhar Todas as Solicitações</button>
+    <button onclick="getOpenRequests()">Listar Chamados Abertos</button>
+    <button onclick="getInProgressRequests()">Listar Chamados em Andamento</button>
+    <button onclick="getClosedRequests()">Listar Chamados Fechados</button>
+
+    <div id="orderStatus"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
