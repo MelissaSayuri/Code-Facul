@@ -17,9 +17,9 @@ $(".next").click(function(){
 			left = (now * 50)+"%";
 			opacity = 1 - now;
 			current_fs.css({
-        'transform': 'scale('+scale+')',
-        'position': 'absolute'
-      });
+				'transform': 'scale('+scale+')',
+				'position': 'absolute'
+			});
 			next_fs.css({'left': left, 'opacity': opacity});
 		}, 
 		duration: 800, 
@@ -57,3 +57,12 @@ $(".previous").click(function(){
 		easing: 'easeInOutBack'
 	});
 });
+
+$(".submit").click(function(){
+    goToLogin();
+});
+
+function goToLogin() {
+    // Adicione a lógica aqui para redirecionar para a página de login ou realizar outra ação desejada
+    alert('Redirecionando para a página de login...');
+}
