@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+</head>
+
+<body>
+  <div class="register-box">
+<!-- multistep form -->
+<form id="msform" class="form">
+    <!-- progressbar -->
+    <ul id="progressbar">
+      <li class="active">Criando Conta</li>
+      <li>Detalhes Pessoais</li>
+      <li>Cadastrado</li>
+    </ul>
+    <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Crie sua conta</h2>
+      <h3 class="fs-subtitle">Por favor, preencha abaixo</h3>
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="pass" placeholder="Senha" />
+      <input type="password" name="cpass" placeholder="Confirmar Senha" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+        <h2 class="fs-title">Dados pessoais</h2>
+        <h3 class="fs-subtitle">Por favor, preencha abaixo </h3>
+        <input type="text" name="fname" placeholder="Primeiro Nome" />
+        <input type="text" name="lname" placeholder="Sobrenome" />
+        <input type="text" name="rt" placeholder="RT" />
+        <input type="text" name="phone" placeholder="Telefone" />
+        <input type="button" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+        <h1 class="fs-title">Cadastrado</h1>
+        <h3 class="fs-subtitle">Cadastrado com sucesso!</h3>
+        <h3 class="fs-subtitle">Volte ao Login </h3>
+        
+        <input type="button" class="back action-button" value="Login" />
+    </fieldset>
+    
+  </form>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
